@@ -1,3 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Popup Example</title>
+  <style>
+    /* Popup box style */
+    #popup {
+      display: none; /* Hidden by default */
+      position: fixed;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #333;
+      color: white;
+      padding: 15px 25px;
+      border-radius: 5px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+      z-index: 1000;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Popup -->
+  <div id="popup">Yeh aik popup message hai!</div>
+
+  <script>
+    // Show popup after 3 seconds
+    window.onload = function() {
+      setTimeout(function() {
+        var popup = document.getElementById("popup");
+        popup.style.display = "block";
+
+        // Hide popup after 3 seconds
+        setTimeout(function() {
+          popup.style.display = "none";
+        }, 3000);
+      }, 3000);
+    }
+  </script>
+
+</body>
+</html>
+
+
+
 import React from 'react';
 import { MessageCircle, Instagram, Youtube, Send } from 'lucide-react';
 
