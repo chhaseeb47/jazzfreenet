@@ -28,7 +28,7 @@ function App() {
           </div>
           
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 drop-shadow-lg">
-            🎉 Hasi Free Data 🎉
+             Hasi Free Data 
           </h1>
           <div className="h-1 w-32 bg-gradient-to-r from-yellow-400 to-orange-500 mx-auto rounded-full"></div>
         </div>
