@@ -84,10 +84,10 @@ function App() {
         {/* Main Buttons */}
         <div className="max-w-md mx-auto space-y-6 mb-12">
           <button
-            onClick={() => window.open('https://whatsapp.com/channel/0029VaHI7LsFnSz1irwgsL1z', '_blank')}
+            onClick={() => window.open('http://portal.tamashaweb.com/', '_blank')}
             className="w-full bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold py-4 px-6 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-300 text-lg"
           >
-            📱 Jazz 100 GB DATA FREE 📱
+            📱 Jazz 50 GB DATA FREE 📱
           </button>
           
           <button
