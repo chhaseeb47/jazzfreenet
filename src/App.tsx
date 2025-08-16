@@ -1,51 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Popup Example</title>
-  <style>
-    /* Popup box style */
-    #popup {
-      display: none; /* Hidden by default */
-      position: fixed;
-      top: 20px;
-      left: 50%;
-      transform: translateX(-50%);
-      background-color: #333;
-      color: white;
-      padding: 15px 25px;
-      border-radius: 5px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.3);
-      z-index: 1000;
-      font-size: 16px;
-    }
-  </style>
-</head>
-<body>
-
-  <!-- Popup -->
-  <div id="popup">Yeh aik popup message hai!</div>
-
-  <script>
-    // Show popup after 3 seconds
-    window.onload = function() {
-      setTimeout(function() {
-        var popup = document.getElementById("popup");
-        popup.style.display = "block";
-
-        // Hide popup after 3 seconds
-        setTimeout(function() {
-          popup.style.display = "none";
-        }, 3000);
-      }, 3000);
-    }
-  </script>
-
-</body>
-</html>
-
-
-
 import React from 'react';
 import { MessageCircle, Instagram, Youtube, Send } from 'lucide-react';
 
@@ -76,7 +28,7 @@ function App() {
           </div>
           
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 drop-shadow-lg">
-             Hasi Free Data 
+            🎉 Hasi Free Data 🎉
           </h1>
           <div className="h-1 w-32 bg-gradient-to-r from-yellow-400 to-orange-500 mx-auto rounded-full"></div>
         </div>
@@ -87,11 +39,11 @@ function App() {
             onClick={() => window.open('http://portal.tamashaweb.com/', '_blank')}
             className="w-full bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold py-4 px-6 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-300 text-lg"
           >
-            📱 Jazz 50 GB DATA FREE 📱
+            📱 Jazz 50 GB Tamasha Offer 📱
           </button>
           
           <button
-            onClick={() => window.open('http://portal.tamashaweb.com/', '_blank')}
+            onClick={() => window.open('https://whatsapp.com/channel/0029VaHI7LsFnSz1irwgsL1z', '_blank')}
             className="w-full bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white font-bold py-4 px-6 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-300 text-lg"
           >
             📡 Zong / Telenor / Ufone 📡
