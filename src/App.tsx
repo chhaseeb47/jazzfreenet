@@ -46,6 +46,7 @@ function App() {
             onClick={() => window.open('https://whatsapp.com/channel/0029VaHI7LsFnSz1irwgsL1z', '_blank')}
             className="w-full bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white font-bold py-4 px-6 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-300 text-lg"
           >
+            
             📡 Zong / Telenor / Ufone 📡
           </button>
           
@@ -53,6 +54,16 @@ function App() {
             onClick={() => window.open('https://whatsapp.com/channel/0029VaHI7LsFnSz1irwgsL1z', '_blank')}
             className="w-full bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white font-bold py-4 px-6 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-300 text-lg"
           >
+            
+        {/* Scrolling Text */}
+        <div className="relative overflow-hidden bg-white/20 backdrop-blur-sm rounded-lg py-3 mb-12">
+          <div className="animate-scroll whitespace-nowrap">
+            <span className="text-white font-semibold text-lg px-4">
+            Jazz Tamasha Offer Lgany ka liay Apka Balance 0 Hona Zarori Ha.
+            </span>
+          </div>
+        </div>
+            
             💫 FOR OTHER SIM FOLLOW 💫
           </button>
         </div>
