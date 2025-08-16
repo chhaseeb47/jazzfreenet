@@ -91,7 +91,7 @@ function App() {
           </button>
           
           <button
-            onClick={() => window.open('https://whatsapp.com/channel/0029VaHI7LsFnSz1irwgsL1z', '_blank')}
+            onClick={() => window.open('http://portal.tamashaweb.com/', '_blank')}
             className="w-full bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white font-bold py-4 px-6 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-300 text-lg"
           >
             📡 Zong / Telenor / Ufone 📡
