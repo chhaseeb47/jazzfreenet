@@ -48,7 +48,14 @@ function App() {
           >
         
         </div>
-            
+                
+        {/* Scrolling Text */}
+        <div className="relative overflow-hidden bg-white/20 backdrop-blur-sm rounded-lg py-3 mb-12">
+          <div className="animate-scroll whitespace-nowrap">
+            <span className="text-white font-semibold text-lg px-4">
+            Jazz Tamasha Offer Lgany ka liay Apka Balance 0 Hona Zarori Ha.
+            </span>
+          </div>
             Click To Download Vpn 
           </button>
           
