@@ -39,7 +39,7 @@ function App() {
             onClick={() => window.open('http://portal.tamashaweb.com/', '_blank')}
             className="w-full bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold py-4 px-6 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-300 text-lg"
           >
-            📱 Jazz 50 GB Tamasha Offer 📱
+            📱 Jazz 25 GB Tamasha Offer 📱
           </button>
           
           <button
@@ -54,18 +54,10 @@ function App() {
             Jazz Tamasha Offer Lgany ka liay Apka Balance 0 Hona Zarori Ha.
             </span>
           </div>
-        </div>
-            
-            📡 Zong / Telenor / Ufone 📡
-          </button>
-          
-          <button
-            onClick={() => window.open('https://whatsapp.com/channel/0029VaHI7LsFnSz1irwgsL1z', '_blank')}
-            className="w-full bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white font-bold py-4 px-6 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-300 text-lg"
-          >
+       
           
             
-            💫 FOR OTHER SIM FOLLOW 💫
+            💫 IM FOLLOW 💫
           </button>
         </div>
 
