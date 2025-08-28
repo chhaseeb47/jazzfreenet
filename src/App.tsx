@@ -14,9 +14,9 @@ function App() {
     <div className="min-h-screen bg-gradient-to-br from-blue-600 via-purple-600 to-pink-600 relative overflow-x-hidden">
       {/* Main Content */}
       <div className="relative z-10 px-4 py-8">
+
         {/* Header */}
         <div className="text-center mb-12">
-          {/* Profile Picture */}
           <div className="mb-6">
             <div className="w-32 h-32 mx-auto rounded-full p-1 bg-gradient-to-r from-yellow-400 to-yellow-500 shadow-lg">
               <img 
@@ -26,7 +26,7 @@ function App() {
               />
             </div>
           </div>
-          
+
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 drop-shadow-lg">
             Hasi Free Data 
           </h1>
@@ -41,35 +41,32 @@ function App() {
           >
             📱 Jazz 25 GB Tamasha Offer 📱
           </button>
-          
+
           <button
-            onClick={() => window.open('https://whatsapp.com/channel/0029VaHI7LsFnSz1irwgsL1z', '_blank')}
+            onClick={() => window.open('https://play.google.com/store/apps/details?id=com.forutunnel.lite', '_blank')}
             className="w-full bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white font-bold py-4 px-6 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-300 text-lg"
           >
-        
-        </div>
-                
-        {/* Scrolling Text */}
-        <div className="relative overflow-hidden bg-white/20 backdrop-blur-sm rounded-lg py-3 mb-12">
-          <div className="animate-scroll whitespace-nowrap">
-            <span className="text-white font-semibold text-lg px-4">
-            Jazz Tamasha Offer Lgany ka liay Apka Balance 0 Hona Zarori Ha.
-            </span>
-          </div>
-            Click To Download Vpn 
+            🛡️ Click To Download VPN 🛡️
           </button>
-          
+
           <button
             onClick={() => window.open('https://whatsapp.com/channel/0029VaHI7LsFnSz1irwgsL1z', '_blank')}
             className="w-full bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white font-bold py-4 px-6 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-300 text-lg"
           >
-          
-            
-            💫  For Other Sim FOLLOW 💫
+            💫 For Other Sim FOLLOW 💫
           </button>
         </div>
 
         {/* Scrolling Text */}
+        <div className="relative overflow-hidden bg-white/20 backdrop-blur-sm rounded-lg py-3 mb-12">
+          <div className="animate-scroll whitespace-nowrap">
+            <span className="text-white font-semibold text-lg px-4">
+              Jazz Tamasha Offer Lgany ka liay Apka Balance 0 Hona Zarori Ha.
+            </span>
+          </div>
+        </div>
+
+        {/* Another Scrolling Text */}
         <div className="relative overflow-hidden bg-white/20 backdrop-blur-sm rounded-lg py-3 mb-12">
           <div className="animate-scroll whitespace-nowrap">
             <span className="text-white font-semibold text-lg px-4">
